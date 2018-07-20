@@ -1,0 +1,16 @@
+<h1>What animal are you most like... let's get started</h1>
+
+<p>Nice purse or nice shoes?</p>
+<form method = POST>
+  <input id="questionNumber" name="questionNumber" type="hidden" value="4">
+  <input id="name" name="name" type="hidden" value="<%=@name%>">
+  <input id="first" name="first" type="hidden" value="<%=@choice1%>">
+  <input id="second" name="second" type="hidden" value="<%=@choice2%>">
+
+  <input type="radio" id="third" name="third" value="0">Purse
+  <br>
+  <input type="radio" id="third" name="third" value="1">Shoes
+  
+  <br>
+  <input type = "submit" value = "For Sure!">
+</form>

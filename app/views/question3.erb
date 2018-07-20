@@ -1,0 +1,15 @@
+<h1>What animal are you most like... let's get started</h1>
+
+<p>Are you more into movies or makeup?</p>
+<form method = POST>
+  <input id="questionNumber" name="questionNumber" type="hidden" value="3">
+  <input id="name" name="name" type="hidden" value="<%=@name%>">
+  <input id="first" name="first" type="hidden" value="<%=@choice1%>">
+
+  <input type="radio" id="second" name="second" value="0">Movies
+  <br>
+  <input type="radio" id="second" name="second" value="1">Makeup
+  
+  <br>
+  <input type = "submit" value = "Usually">
+</form>
